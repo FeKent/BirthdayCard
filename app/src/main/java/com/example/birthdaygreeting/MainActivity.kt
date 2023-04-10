@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     BirthdayGreetingWithImage(
                         message = "Happy Birthday Snippy!",
-                        from = "- From Snippy xox"
+                        from = "- From Snippy xoxo"
                     )
                 }
             }
@@ -75,6 +75,6 @@ fun BirthdayGreetingWithImage(message: String, from: String, modifier: Modifier 
 @Composable
 fun BirthdayCardPreview() {
     BirthdayGreetingTheme {
-        BirthdayGreetingWithImage(message = "Happy Birthday Snippy!", from = "- From Snippy xox")
+        BirthdayGreetingWithImage(message = "Happy Birthday Snippy!", from = "- From Snippy xoxo")
     }
 }
